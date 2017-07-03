@@ -1,6 +1,6 @@
 title: hexo命令
 date: 2017-07-03 22:53:47
-tags: hexo 速查
+tags: hexo
 ---
 
 hexo很久没用了，新学习技术，想搞个记录总结的地方，重新拾起来hexo!
