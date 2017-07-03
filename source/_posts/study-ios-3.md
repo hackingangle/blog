@@ -1,6 +1,6 @@
 title: ios3
 date: 2016-10-09 22:20:40
-tags: ios3
+tags: ios
 ---
 
 今天计算器的小程序完成了，总结一下！
