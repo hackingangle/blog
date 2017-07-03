@@ -1,6 +1,6 @@
 title: php内置九种排序
 date: 2016-03-03 11:16:25
-tags: php sort
+tags: php
 ---
 
 ## 讲解
