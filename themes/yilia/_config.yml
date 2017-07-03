@@ -1,0 +1,60 @@
+# Header
+menu:
+  主页: /
+  所有文章: /archives
+  # 随笔: /tags/随笔
+  # 图片: /instagram
+
+# SubNav
+subnav:
+  github: "https://www.github.com/hackingangle"
+  weibo: "http://weibo.com/hackingangle"
+  #rss: "#"
+  zhihu: "http://www.zhihu.com/people/hackingangle"
+  douban: "http://www.douban.com/people/hackingangle"
+  mail: "hackingangle@gmail.com"
+  facebook: "http://www.facebook.com/hackingangle"
+  #google: "#"
+  twitter: "https://twitter.com/hackingangle"
+  #linkedin: "#"
+
+rss: /atom.xml
+
+# Content
+excerpt_link: more
+fancybox: true
+mathjax: true
+
+# 是否开启动画效果
+animate: true
+
+# 是否在新窗口打开链接
+open_in_new: false
+
+# Miscellaneous
+google_analytics: ''
+favicon: /favicon.png
+
+#你的头像url
+avatar: /images/avatar.png 
+#是否开启分享
+share: true
+#是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
+#若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
+duoshuo: false
+#是否开启云标签
+tagcloud: true
+
+#是否开启友情链接
+#不开启——
+#friends: false
+#开启——
+friends:
+  MacTalk: http://macshuo.com/
+
+#是否开启“关于我”。
+#不开启——
+#aboutme: false
+#开启——
+aboutme: WEB工程师、精通PHP;2010年参加工作,2011年加入互联网大军,2012年创业图片存储类网站,2014年底创业失败,同年加入百度;一直在努力，从未放弃
+
