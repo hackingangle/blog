@@ -67,3 +67,4 @@ ret_create_date = response.css("p.entry-meta-hide-on-mobile::text").extract()[0]
 - 知识点
     - extract_first("")
         - 如果list第一个元素为空，则返回""
+    - `.floated-thumb .post-thumb a::attr(href)`

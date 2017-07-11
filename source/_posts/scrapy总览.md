@@ -44,6 +44,7 @@ python这门语言从我接触以来，从来都与数据抓取密不可分。
 1. [使用](/2017/07/10/scrapy-使用/)
 1. [xpath](/2017/07/11/scrapy-xpath/)
 1. [css](/2017/07/11/scrapy-css/)
+1. [爬取jobbole](/2017/07/11/scrapy-css/)
 
 ## 进度
 
