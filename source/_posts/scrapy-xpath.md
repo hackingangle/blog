@@ -74,8 +74,54 @@ tags: scrapy
 我们可以知道，通过response返回的结果中是不包含js运行结果的，所以说直接浏览器复制的xpath路径是有可能提取不到元素的。
 
 ``` python
+# -*- coding: utf-8 -*-
+import scrapy
+import re
 
+
+class JobboleSpider(scrapy.Spider):
+    # 爬虫名称
+    name = 'jobbole'
+    # url爬取域名白名单
+    allowed_domains = ['blog.jobbole.com']
+    # 开启爬取url列表
+    start_urls = ['http://blog.jobbole.com/111742/']
+
+    def parse(self, response):
+        # 提取
+        title = response.xpath('//div[@class="entry-header"]/h1/text()')
+        # 解压缩转数组
+        titleArr = title.extract()
+        # 提取第一个为标题
+        ret_title = titleArr[0]
+        # 提取创建日志
+        ret_create_date = response.xpath("//p[@class='entry-meta-hide-on-mobile']/text()").extract()[0].strip().replace(
+            " ·", "")
+        # 提取点赞
+        ret_praise_nums = int(response.xpath("//span[contains(@class, 'vote-post-up')]/h10/text()").extract()[0])
+        # 收藏
+        strFavNums = response.xpath("//span[contains(@class, 'bookmark-btn')]/text()").extract()[0]
+        reHandle = re.match(".*(\d+).*", strFavNums)
+        if reHandle:
+            ret_fav_nums = reHandle.group(1)
+        # 评论
+        strCommentNums = response.xpath("//a[@href='#article-comment']/span/text()").extract()[0]
+        reHandle = re.match(".*(\d+).*", strCommentNums)
+        if reHandle:
+            ret_comment_nums = reHandle.group(1)
+        # 正文
+        ret_content = response.xpath("//div[@class='entry']/text()").extract()[0]
+
+        # 标签
+        tagList = response.xpath("//p[@class='entry-meta-hide-on-mobile']/a/text()").extract()
+        tagList = [element for element in tagList if not element.strip().endswith("评论")]
+        ret_tags = ",".join(tagList)
+        pass
 ```
+
+看一下运行结果，分析出来的属性以`ret_`开头，如下：
+
+![xpath结果](/images/scrapy/xpath结果.jpeg)
 
 ### 上述在Scrapy的spider程序中调试每次都需要等待？
 
