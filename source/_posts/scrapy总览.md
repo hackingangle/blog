@@ -47,6 +47,7 @@ python这门语言从我接触以来，从来都与数据抓取密不可分。
 1. [爬取jobbole](/2017/07/11/scrapy-jobbole/)
 1. [items&pipelines](/2017/07/11/scrapy-items/)
 1. [pipeline保存到数据库](/2017/07/12/scrapy-pipeline保存到数据库/)
+1. [itemloader](/2017/07/12/scrapy-itemloader/)
 
 ## 进度
 
@@ -74,3 +75,5 @@ python这门语言从我接触以来，从来都与数据抓取密不可分。
     - 2017-07-11 21:36
 1. 4-12
     - 2017-07-11 23:08
+1. 4-15
+    - 2017-07-11 09:24
