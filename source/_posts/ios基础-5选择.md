@@ -1,41 +1,51 @@
 ---
-title: ios基础-4-运算符
-date: 2017-07-24 23:23:41
+title: ios基础-5-选择
+date: 2017-07-24 23:49:41
 tags: ios
 ---
 
-1. 所有的数字的计算都离不开
-    - `+`
-    - `-`
-    - `*`
-    - `/`
+``` c
+//
+//  main.m
+//  5选择if
+//
+//  Created by wanggang on 2017/7/24.
+//  Copyright © 2017年 hackingangle. All rights reserved.
+//
 
-1. 存在一些逻辑上的关系，比如且，或，非
-    - `&&`
-        - 且
-    - `||`
-        - 或
-    - `!`
-        - 非
+#import <Foundation/Foundation.h>
 
-1. 取模为一种经常使用的行为
-    - 1%10
-        - =1
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        int a = 10;
+        // if
+        if (a > 1) {
+            NSLog(@"a > 1");
+        }
+        // if-else
+        if (a > 10) {
+            NSLog(@"a > 10");
+        } else {
+            NSLog(@"a < 10");
+        }
+        // 嵌套
+        if (a != 0) {
+            if (a > 0) {
+                NSLog(@"a > 0");
+            } else {
+                NSLog(@"a < 0");
+            }
+        }
+        // if-else if-else
+        if (a < 0) {
+            NSLog(@"a < 0");
+        } else if (a > 0) {
+            NSLog(@"a > 0");
+        } else {
+            NSLog(@"a = 0");
+        }
+    }
+    return 0;
+}
 
-1. 赋值的时候进行计算
-    - `+=`
-
-1. 自增、自减运算
-    - `++`
-    - `--`
-
-1. 位运算
-    - a&1
-        - =1
-    - a<<1
-        - *2
-    - a>>1
-        - /2
-    
-1. 三目
-    - (a>b)?1:0
+```
