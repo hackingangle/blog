@@ -38,7 +38,7 @@ tags: ios
 
 ## 进度
 
-### Objective-C基础语法(done)
+### Objective-C基础语法&Objective-C高级语法(done)
 1. 1-2
     - 2017-07-04 8:50
 1. 2-6
@@ -48,18 +48,14 @@ tags: ios
 1. 4-14
     - 2017-07-24 23:22
     
-### Objective-C高级语法(done)
+### Objective-C面向对象(done)
 1. 1-11
     - 2017-07-24 23:52
 1. 3-12
     - 2017-07-25 22:57
 1. 4-13
     - 2017-07-26 23:36
-    
-### Objective-C面向对象(todo)
 
-### Foundation框架
+### Foundation框架(todo)
 
 ### 类之间通信
-
-### Objective-C语言基础测试
