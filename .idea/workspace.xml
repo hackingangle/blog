@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f046ff0-336e-4405-bc3d-6205d165eae1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/_posts/ios基础-3-1类&amp;实例化.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/_posts/ios基础-3-2构造方法&amp;实例方法&amp;类方法.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/_posts/ios基础-3-3属性get|set.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/_posts/ios基础-3-4类属性.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/_posts/ios基础-3-5分类|类扩展.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/_posts/ios基础-3-6继承多态.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/ios总览.md" afterPath="$PROJECT_DIR$/source/_posts/ios总览.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +44,8 @@
         <entry file="file://$PROJECT_DIR$/source/_posts/ios总览.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="426">
-                <caret line="33" column="33" lean-forward="false" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+              <first_editor relative-caret-position="870">
+                <caret line="58" column="24" lean-forward="false" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -292,12 +285,12 @@
       <workItem from="1500909585493" duration="7732000" />
       <workItem from="1500993269469" duration="28000" />
       <workItem from="1500993304074" duration="10019000" />
-      <workItem from="1501078258922" duration="4328000" />
+      <workItem from="1501078258922" duration="4684000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22107000" />
+    <option name="totallyTimeSpent" value="22463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1436" height="877" extended-state="6" />
@@ -500,8 +493,8 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/ios总览.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="426">
-            <caret line="33" column="33" lean-forward="false" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+          <first_editor relative-caret-position="870">
+            <caret line="58" column="24" lean-forward="false" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
             <folding />
           </first_editor>
           <second_editor />
