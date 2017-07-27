@@ -36,6 +36,7 @@ tags: ios
 
 ### Foundation框架(doing)
 1. [NSString](/2017/07/27/ios基础-4-1NSString/)
+1. [NSArray](/2017/07/27/ios基础-4-2NSArray/)
 
 ## 进度
 
@@ -60,5 +61,7 @@ tags: ios
 ### Foundation框架(doing)
 1. 2-11
     - 2017-07-27 17:19
+1. 3-10
+    - 2017-07-27 18:38o
 
 ### 类之间通信
