@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f046ff0-336e-4405-bc3d-6205d165eae1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/_posts/ios基础-5-1类间通信block.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/_posts/ios基础-5-2类间通信广播.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/_posts/ios基础-5-3委托代理.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/_posts/ios基础-5-5KVC&amp;KVO.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/ios总览.md" afterPath="$PROJECT_DIR$/source/_posts/ios总览.md" />
     </list>
@@ -51,6 +49,8 @@
         <option value="$PROJECT_DIR$/source/_posts/ios基础-5-1类间通信block.md" />
         <option value="$PROJECT_DIR$/source/_posts/ios基础-5-2类间通信广播.md" />
         <option value="$PROJECT_DIR$/source/_posts/ios基础-5-3委托代理.md" />
+        <option value="$PROJECT_DIR$/source/_posts/ios基础-5-4定时器.md" />
+        <option value="$PROJECT_DIR$/source/_posts/ios基础-5-5KVC&amp;KVO.md" />
         <option value="$PROJECT_DIR$/source/_posts/ios总览.md" />
       </list>
     </option>
@@ -88,7 +88,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -136,6 +135,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,12 +248,13 @@
       <workItem from="1501078258922" duration="10940000" />
       <workItem from="1501168028723" duration="7356000" />
       <workItem from="1501470194507" duration="1886000" />
-      <workItem from="1501597192323" duration="4527000" />
+      <workItem from="1501597192323" duration="7610000" />
+      <workItem from="1501682151689" duration="1977000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42488000" />
+    <option name="totallyTimeSpent" value="47548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1916" height="1057" extended-state="6" />
@@ -262,12 +263,12 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -307,12 +308,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/_posts/ios基础-5-1类间通信block.md">
+    <entry file="file://$PROJECT_DIR$/source/_posts/ios基础-5-4定时器.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/ios基础-5-1类间通信block.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           </first_editor>
           <second_editor />
         </state>
@@ -373,7 +384,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -384,7 +394,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-217">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -395,7 +404,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-933">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -406,7 +414,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -417,7 +424,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-2375">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -428,7 +434,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-642">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -439,18 +444,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="480">
             <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/ios总览.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="592">
-            <caret line="66" column="7" lean-forward="true" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -461,7 +454,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="802">
             <caret line="132" column="31" lean-forward="false" selection-start-line="132" selection-start-column="31" selection-end-line="132" selection-end-column="31" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -472,6 +464,38 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="863">
             <caret line="166" column="0" lean-forward="false" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/ios总览.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="289">
+            <caret line="44" column="15" lean-forward="false" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/ios基础-5-5KVC&amp;KVO.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="803">
+            <caret line="310" column="3" lean-forward="false" selection-start-line="310" selection-start-column="3" selection-end-line="310" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/ios基础-5-4定时器.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="14" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
             <folding />
           </first_editor>
           <second_editor />
