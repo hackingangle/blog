@@ -1,10 +1,12 @@
----
-title: ios-UI控件-1初识UI
+title: 初识UI(1)
 date: 2017-08-03 08:53:41
-tags: [ios, ui]
+tags: [ui, ios]
+categories: ios入门
 ---
 
-<!-- -->
+坐标系、CGRect、CGPoint、CGSize、CGFloat、UIWidown、UIScreen、ViewController
+<!-- more -->
+
 # UI
 
 在IOS开发中，开发者需要具备一种render界面能力，这里我们介绍界面元素，如果通过代码来控制界面元素的呈现
