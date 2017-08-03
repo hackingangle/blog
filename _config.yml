@@ -4,7 +4,7 @@
 
 # Site
 title: 黑角
-subtitle: 让男人改变的一定是女人，做困难的事情让自己成长
+subtitle: 做困难的事情让自己成长
 description: 思维不做俗套，认真做事
 author: hackingangle
 language: zh-Hans
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: black-blue
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
