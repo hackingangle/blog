@@ -1,8 +1,11 @@
 ---
-title: ios基础-5-3委托代理
+title: 委托代理
 date: 2017-08-02 09:05:41
-tags: ios
+tags: [oc, ios]
+categories: ios入门
 ---
+可以把具体的工作，通过协议来委托给代理，让代理去帮我们工作
+<!-- more -->
 
 ## what
 

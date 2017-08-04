@@ -1,8 +1,12 @@
 ---
-title: ios基础-5-5KVC&KVO
+title: KVC&KVO
 date: 2017-08-02 21:51:41
-tags: ios
+tags: [oc, ios]
+categories: ios入门
 ---
+
+key value coding & 监听key value变化，并timer给出股票监听案例
+<!-- more -->
 
 ## what
 

@@ -1,7 +1,8 @@
 ---
 title: ios基础-4-2-NSArray
 date: 2017-07-27 15:22:41
-tags: ios
+tags: [oc, ios]
+categories: ios入门
 ---
 
 - 有顺序

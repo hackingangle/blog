@@ -1,7 +1,8 @@
 ---
 title: ios基础-3-5分类|类扩展
 date: 2017-07-26 23:15:41
-tags: ios
+tags: [oc, ios]
+categories: ios入门
 ---
 
 ## 分类

@@ -1,7 +1,8 @@
 ---
 title: ios基础-4-3-NSDictionary
 date: 2017-07-27 23:07:41
-tags: ios
+tags: [oc, ios]
+categories: ios入门
 ---
 
 ``` c

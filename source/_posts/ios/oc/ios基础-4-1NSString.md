@@ -1,7 +1,8 @@
 ---
 title: ios基础-4-1-NSString
 date: 2017-07-27 13:07:41
-tags: ios
+tags: [oc, ios]
+categories: ios入门
 ---
 
 字符串创建、比较、搜索、获取子字符串、转换大小写、转换首字母、增删改查、trim

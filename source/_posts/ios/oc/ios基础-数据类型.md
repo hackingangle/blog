@@ -1,7 +1,8 @@
 ---
 title: ios基础-3-数据类型
 date: 2017-07-06 08:11:41
-tags: ios
+tags: [oc, ios]
+categories: ios入门
 ---
 
 # 数据类型

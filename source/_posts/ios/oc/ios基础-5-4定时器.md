@@ -1,9 +1,11 @@
 ---
-title: ios基础-5-4定时器
+title: 定时器
 date: 2017-08-02 15:51:41
-tags: ios
+tags: [oc, ios]
+categories: ios入门
 ---
-
+定时执行某个方法，可以带参数，可以选择循环；NSRunLoop；统计程序耗时 
+<!-- more -->
 1. 两种定时器的创建方法
 1. 时间精确不到ms级别
 1. 程序计算执行耗时的方法

@@ -1,7 +1,8 @@
 ---
 title: ios基础-7-函数
 date: 2017-07-25 23:08:41
-tags: ios
+tags: [oc, ios]
+categories: ios入门
 ---
 
 函数

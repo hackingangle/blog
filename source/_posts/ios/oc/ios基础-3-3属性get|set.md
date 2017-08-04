@@ -1,7 +1,8 @@
 ---
 title: ios基础-3-3属性get|set
 date: 2017-07-26 22:27:41
-tags: ios
+tags: [oc, ios]
+categories: ios入门
 ---
 
 封装，内部变量的细节封装起来，暴露外部接口使用

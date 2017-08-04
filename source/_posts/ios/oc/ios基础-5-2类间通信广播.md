@@ -1,7 +1,8 @@
 ---
 title: ios基础-5-2类间通信广播
 date: 2017-08-02 08:20:41
-tags: ios
+tags: [oc, ios]
+categories: ios入门
 ---
 
 广播三要素：

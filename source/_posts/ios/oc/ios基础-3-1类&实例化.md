@@ -1,7 +1,8 @@
 ---
 title: ios基础-3-1-类实例化
 date: 2017-07-26 13:07:41
-tags: ios
+tags: [oc, ios]
+categories: ios入门
 ---
 
 ## 概念

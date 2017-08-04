@@ -1,7 +1,8 @@
 ---
 title: ios基础-3-6继承多态
 date: 2017-07-26 23:30:41
-tags: ios
+tags: [oc, ios]
+categories: ios入门
 ---
 
 ## 继承

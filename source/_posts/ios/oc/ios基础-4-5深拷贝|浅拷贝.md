@@ -1,7 +1,8 @@
 ---
 title: ios基础-4-5深拷贝|浅拷贝
 date: 2017-07-28 8:32:41
-tags: ios
+tags: [oc, ios]
+categories: ios入门
 ---
 
 ## 概念

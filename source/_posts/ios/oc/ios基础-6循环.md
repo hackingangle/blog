@@ -1,7 +1,8 @@
 ---
 title: ios基础-6-循环
 date: 2017-07-25 22:38:41
-tags: ios
+tags: [oc, ios]
+categories: ios入门
 ---
 
 循环

@@ -1,7 +1,8 @@
 ---
 title: ios基础-3-4类属性
 date: 2017-07-26 22:41:41
-tags: ios
+tags: [oc, ios]
+categories: ios入门
 ---
 
 创建属性在.h文件中

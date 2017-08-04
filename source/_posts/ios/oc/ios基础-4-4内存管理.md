@@ -1,7 +1,8 @@
 ---
 title: ios基础-4-4-内存管理
 date: 2017-07-27 23:32:41
-tags: ios
+tags: [oc, ios]
+categories: ios入门
 ---
 
 ## 基础概念

@@ -1,7 +1,8 @@
 ---
 title: ios基础-3-2-构造方法&实例方法&类方法
 date: 2017-07-26 22:27:41
-tags: ios
+tags: [oc, ios]
+categories: ios入门
 ---
 
 ``` c

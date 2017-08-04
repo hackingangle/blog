@@ -1,7 +1,8 @@
 ---
 title: ios基础-8-宏
 date: 2017-07-25 23:17:41
-tags: ios
+tags: [oc, ios]
+categories: ios入门
 ---
 
 ## 宏

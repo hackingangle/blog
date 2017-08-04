@@ -1,5 +1,5 @@
 ---
-title: linux-tcp
+title: shell命令查看linux-tcp
 date: 2017-07-13 16:02:58
 tags: linux
 ---

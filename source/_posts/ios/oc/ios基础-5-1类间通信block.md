@@ -1,7 +1,8 @@
 ---
 title: ios基础-5-1类间通信block
 date: 2017-08-02 07:00:41
-tags: ios
+tags: [oc, ios]
+categories: ios入门
 ---
 
 ## block

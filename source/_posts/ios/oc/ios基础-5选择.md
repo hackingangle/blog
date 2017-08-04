@@ -1,7 +1,8 @@
 ---
 title: ios基础-5-选择
 date: 2017-07-24 23:49:41
-tags: ios
+tags: [oc, ios]
+categories: ios入门
 ---
 
 - if

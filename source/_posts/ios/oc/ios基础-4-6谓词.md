@@ -1,7 +1,8 @@
 ---
 title: ios基础-4-6谓词
 date: 2017-07-28 9:04:41
-tags: ios
+tags: [oc, ios]
+categories: ios入门
 ---
 
 ## what

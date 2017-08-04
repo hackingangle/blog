@@ -1,4 +1,4 @@
-title: 初识UI(1)
+title: 初识UI
 date: 2017-08-03 08:53:41
 tags: [ui, ios]
 categories: ios入门
