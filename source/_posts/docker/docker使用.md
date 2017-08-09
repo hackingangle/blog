@@ -38,3 +38,5 @@ CONTAINER           CPU %               MEM USAGE / LIMIT   MEM %               
 - 连接容器
     - `docker exec -it 6 /bin/bash`
         - 代表的含义也是唯一的标示，与`IMAGE ID`用法一致，大赞
+- 查看docker宿主机
+    - `docker-machine ip default`
